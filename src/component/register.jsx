@@ -53,7 +53,7 @@ function Register({ setIsLogin }) {
             required
           />
         </div>
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col items-center justify-between">
           <button
             type="submit"
             className="w-full px-5 py-2.5 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 font-medium"
